@@ -58,8 +58,8 @@ Scenario Outline: Customer can search a car based on monthly cost
 	Then i click on specific car of my choice as <CarModelLink>
 
 Examples:
-	|PostCode|Make        |Model  |MiniCost|Deposit              |MaximumCost|Months      	|CarModelLink|
-	|B93 0NA |Aston Martin|Vantage|£900   |Deposit (£10000)		|£1000		|Term (48 Months)|ASTON MARTIN, VANTAG 2010 (10) V8 Roadster 2-door|
+	|PostCode|Make        |Model  |MiniCost|Deposit              |MaximumCost|Months      	  |CarModelLink|
+	|B93 0NA |Aston Martin|Vantage|£900    |Deposit (£10000)	 |£1000		 |Term (48 Months)|ASTON MARTIN, VANTAG 2010 (10) V8 Roadster 2-door|
 		
 	
 #  Scenario 05:

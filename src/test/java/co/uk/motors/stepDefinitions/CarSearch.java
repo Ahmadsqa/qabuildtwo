@@ -1,4 +1,4 @@
-package co.uk.motors.stepDefinations;
+package co.uk.motors.stepDefinitions;
 
 import co.uk.motors.helper.BaseClass;
 import co.uk.motors.pages.CarSearchResultsPage;
