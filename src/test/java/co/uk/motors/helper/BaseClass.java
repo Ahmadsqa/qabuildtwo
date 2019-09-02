@@ -1,7 +1,5 @@
 package co.uk.motors.helper;
 
-
-
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.GregorianCalendar;
