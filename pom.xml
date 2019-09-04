@@ -13,7 +13,6 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-
 	  <dependencies>
 	    <dependency>
 	      <groupId>junit</groupId>
@@ -21,56 +20,61 @@
 	      <version>4.12</version>
 	      <scope>test</scope>
 	    </dependency>
-	    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
-	<dependency>
-	    <groupId>org.seleniumhq.selenium</groupId>
-	    <artifactId>selenium-java</artifactId>
-	    <version>3.141.59</version>
-	</dependency>
-	    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server -->
-	<dependency>
-	    <groupId>org.seleniumhq.selenium</groupId>
-	    <artifactId>selenium-server</artifactId>
-	    <version>3.141.59</version>
-	</dependency>
-	    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
-	<dependency>
-	    <groupId>io.cucumber</groupId>
-	    <artifactId>cucumber-java</artifactId>
-	    <version>4.7.1</version>
-	</dependency>
-	    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
-	<dependency>
-	    <groupId>io.cucumber</groupId>
-	    <artifactId>cucumber-junit</artifactId>
-	    <version>4.7.1</version>
-	    <scope>test</scope>
-	</dependency>
-	    <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
-	<dependency>
-	    <groupId>io.github.bonigarcia</groupId>
-	    <artifactId>webdrivermanager</artifactId>
-	    <version>3.6.2</version>
-	</dependency>
-		<!-- https://mvnrepository.com/artifact/com.vimalselvam/cucumber-extentsreport -->
+		    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+		<dependency>
+	    	<groupId>org.seleniumhq.selenium</groupId>
+	    	<artifactId>selenium-java</artifactId>
+	    	<version>3.141.59</version>
+		</dependency>
+	    	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server -->
+		<dependency>
+	    	<groupId>org.seleniumhq.selenium</groupId>
+	    	<artifactId>selenium-server</artifactId>
+	    	<version>3.141.59</version>
+		</dependency>
+	    	<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+		<dependency>
+		    <groupId>io.cucumber</groupId>
+		    <artifactId>cucumber-java</artifactId>
+		    <version>4.7.1</version>
+		</dependency>
+		    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+		<dependency>
+		    <groupId>io.cucumber</groupId>
+		    <artifactId>cucumber-junit</artifactId>
+		    <version>4.7.1</version>
+		    <scope>test</scope>
+		</dependency>
+		    <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+		<dependency>
+		    <groupId>io.github.bonigarcia</groupId>
+		    <artifactId>webdrivermanager</artifactId>
+		    <version>3.6.2</version>
+		</dependency>
+			<!-- https://mvnrepository.com/artifact/com.vimalselvam/cucumber-extentsreport -->
 		<dependency>
 		    <groupId>com.vimalselvam</groupId>
 		    <artifactId>cucumber-extentsreport</artifactId>
 		    <version>1.1.1</version>
 		</dependency>
 			<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
-	<dependency>
-	    <groupId>com.relevantcodes</groupId>
-	    <artifactId>extentreports</artifactId>
-	    <version>2.41.2</version>
-	</dependency>
-		
-		 <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports-cucumber4-adapter -->
+		<dependency>
+		    <groupId>com.relevantcodes</groupId>
+		    <artifactId>extentreports</artifactId>
+		    <version>2.41.2</version>
+		</dependency>
+			 <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports-cucumber4-adapter -->
 		<dependency>
 		    <groupId>com.aventstack</groupId>
 		    <artifactId>extentreports-cucumber4-adapter</artifactId>
 		    <version>1.0.7</version>
 		</dependency>
-		 
-		  </dependencies>
+		<!-- https://mvnrepository.com/artifact/de.monochromata.cucumber/reporting-plugin -->
+		<dependency>
+	  		<groupId>de.monochromata.cucumber</groupId>
+	  		<artifactId>reporting-plugin</artifactId>
+	  		<version>3.0.0</version>
+		</dependency>
+		
+	</dependencies>
 	</project>

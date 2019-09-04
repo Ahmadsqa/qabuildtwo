@@ -17,7 +17,8 @@ public class MotorsHomePage extends BaseClass {
 	
 	//To launch the Motors homepage
 	public void navigateToHomePage() throws Exception {
-		launchUrl("https://www.motors.co.uk/");} 
+		launchUrl("https://www.motors.co.uk/");
+		} 
 	
 	//Now implementing Scenario no. 3
 	//Here implementing postcode field
@@ -92,5 +93,5 @@ public class MotorsHomePage extends BaseClass {
 	public void selectLoanTearm(String Term)throws Exception {
 		loanTerm = getElementByCssSelector("#Term");
 		selectByText(loanTerm, Term);
-	}
+ }
 }
