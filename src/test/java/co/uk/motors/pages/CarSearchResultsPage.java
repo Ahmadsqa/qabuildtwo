@@ -25,8 +25,5 @@ import co.uk.motors.helper.BaseClass;
 			choosenCarLink.click();
 			return new VehicleDetailsPage();
 		}
-
-		
-		
-		
+	
 	}
