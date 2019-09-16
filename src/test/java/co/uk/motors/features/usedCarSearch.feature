@@ -3,7 +3,7 @@ As a customer
 i want the ability to search
 for a car
 so that i can review the  car to buy
-#  Scenario 01:
+#  Scenario 01: None-parameterize scenario
 #Scenario: Customer can search car giving minimum and maximum price
 #	Given i navigate to Motors homepage
 #	When i enter valid post code
@@ -13,7 +13,7 @@ so that i can review the  car to buy
 #	Then the results of the above search is displayed
 #	And click pluse sign link infront of SMART PICKS FOR YOU heading
 
-#  Scenario 02:
+#  Scenario 02: Direct injunction data base scenario
 #Scenario: Customer can search car giving minimum and maximum price
 #	Given i navigate to Motors homepage
 #	When i enter post code as "B8 1LP"
@@ -90,4 +90,28 @@ Examples:
 #	And i click Search button
 #	Then the result of the search above is displayed
 
- 
+ #Scenario 08:
+Scenario Outline: Customer can add more search options while search a car based on monthly cost
+	Given i navigate to Motors homepage
+	And i click on Monthly Cost tab
+	When i enter post code as "<PostCode>"
+	And i select the car maker as "<Make>"
+	And i select the car model as "<Model>"
+	And i select my Minimum Cost as "<MiniCost>"
+	And i select Deposit as "<Deposit>"
+	And i select my Maximum Cost as "<MaximumCost>"
+	And i select Term of loan as "<Months>"
+	And i click on 	HIDEMOREOPTIONS button
+	And i select distance as "<Distance>"
+	And i click convertible bodystyle 
+	And i click on coupe bodystle 
+	And i click on search button
+	
+	Then the results for search above are displayed
+	Then i click on specific car of my choice as <CarModelLink>
+
+Examples:
+	|PostCode|Make        |Model  |MiniCost|Deposit              |MaximumCost|Months      	|CarModelLink|
+	|B93 0NA |Aston Martin|Vantage|£900   |Deposit (£10000)		|£1000		|Term (48 Months)|ASTON MARTIN, VANTAG 2010 (10) V8 Roadster 2-door|
+		
+	

@@ -2,6 +2,7 @@ package co.uk.motors.pages;
 //import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import co.uk.motors.helper.BaseClass;
+
 public class MotorsHomePage extends BaseClass {
 	WebElement postCode;
 	WebElement minPrice;
@@ -28,8 +29,13 @@ public class MotorsHomePage extends BaseClass {
 	//Now implementing Scenario no. 3
 	//Here implementing Minimum price field
 	public void selectMinPrice (String miniPrice) throws Exception {
+	WebElement searchCountActualTitle = getElementByCssSelector("#searchPanel > section > div > section > div.sp__bar > button > span.sp__btn-count");
+	String searchCountTitle = searchCountActualTitle.getText();
+	System.out.println("here is the total car count"+searchCountTitle);
 		minPrice = getElementByCssSelector("#MinPrice");
-		selectByText (minPrice, miniPrice);}
+		selectByText (minPrice, miniPrice);
+		
+	}
 	
 	// Now Implementing Scenario no. 3
 	// Here implment maximum price field

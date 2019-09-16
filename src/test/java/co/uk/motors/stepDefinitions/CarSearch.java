@@ -1,4 +1,4 @@
-package co.uk.motors.stepDefinations;
+package co.uk.motors.stepDefinitions;
 
 import co.uk.motors.helper.BaseClass;
 import co.uk.motors.pages.CarSearchResultsPage;
@@ -69,8 +69,7 @@ public class CarSearch extends BaseClass {
 	  
 		homepage.seletCarMaker(CarMker);
 	}
-	
-	
+		
 	//Scenario no. 4 line 51 i select the car model as
 	@When("i select the car model as {string}")
 	public void i_select_the_car_model_as(String CarModel) throws Exception {
@@ -105,9 +104,7 @@ public class CarSearch extends BaseClass {
 	public void the_results_for_search_above_are_displayed() {
 	   
 	}
-	
-
-	
+		
 /////==========================
 	//Scenario no. 4 line 58 i click on specific car of my choice
 	@Then("i click on specific car of my choice as ASTON MARTIN, VANTAG {int} \\({int}) V{int} Roadster {int}-door")
